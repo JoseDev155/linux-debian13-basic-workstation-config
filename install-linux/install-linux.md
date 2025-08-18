@@ -120,6 +120,6 @@ update-grub
 
 **NOTE**: We´re going to install the Graphic Interface in `configure-linux.md`.
 
-### References
+## References
 
 * Link to the YouTube video: [Install Debian 13 Trixie for Workstation use](https://youtu.be/aiI_23UEIqc?si=YxHlmTN3sgihSR_s)
