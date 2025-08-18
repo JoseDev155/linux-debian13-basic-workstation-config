@@ -10,15 +10,15 @@
 
 Partitioning table:
 
-| Partition | Size   | File system              | Purpose               |
-| --------- | ------ | ------------------------ | --------------------- |
-| EFI       | 512 MB | System partition EFI     | Bootloader partition             |
-| `/boot`   | 2 GB   | `ext4`                   | Kernel partition             |
+| Partition | Size   | File system              | Purpose                               |
+| --------- | ------ | ------------------------ | ------------------------------------- |
+| EFI       | 512 MB | System partition EFI     | Bootloader partition                  |
+| `/boot`   | 2 GB   | `ext4`                   | Kernel partition                      |
 | `swap`    | 33 GB  | `swap`                   | Recommended for hibernation `RAM + 1` |
-| `/`       | 33 GB | `btrfs`                  | Root                  |
-| `/home`   | 33 GB | `xfs`                    | User                  |
-| `/var`    | 30 GB  | `xfs`                    | Logs, variable files, etc                   |
-| `/tmp`    | 10 GB  | `ext4` or `tmpfs`                  | Temporary files                 |
+| `/`       | 125 GB | `btrfs`                  | Root                                  |
+| `/home`   | 1.8 TB | `xfs`                    | User                                  |
+| `/var`    | 30 GB  | `xfs`                    | Logs, variable files, etc             |
+| `/tmp`    | 10 GB  | `ext4` or `tmpfs`        | Temporary files                       |
 
 * **Root** with `btrfs`: Allows you to have CoW (**Copy-on-Write**) file systems.
 * **Home** with `xfs`: Allows you to have **Referenced Copy** (similar to CoW).
@@ -121,5 +121,6 @@ update-grub
 **NOTE**: We´re going to install the Graphic Interface in `configure-linux.md`.
 
 ## References
+
 
 * Link to the YouTube video: [Install Debian 13 Trixie for Workstation use](https://youtu.be/aiI_23UEIqc?si=YxHlmTN3sgihSR_s)
