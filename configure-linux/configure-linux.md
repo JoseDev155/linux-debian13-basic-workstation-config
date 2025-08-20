@@ -33,3 +33,11 @@ If you configure the `/root` partition with `btrfs` and then, you mount the part
 * Select the levels (frequency) of Snapshot creation: **Monthly**, **Weekly**, **Daily**, **Hourly**, **Boot**
 
 That´s all.
+
+### What's Timeshit?
+
+**Timeshift*** allows us move in time between Snapshots.
+
+It doesn't create a backup or copy, it creates a reference of the changes made to the partition. The Snapshots are very light.
+
+**Timeshift** works very similar to **Git**.
