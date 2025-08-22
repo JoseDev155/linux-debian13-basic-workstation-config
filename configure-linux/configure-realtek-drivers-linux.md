@@ -1,8 +1,8 @@
-# Configure Realtek Drivers in Linux
+# Install Realtek Drivers in Linux
 
 First, do the changes in `errors-linux/error-apt-update-linux.md` to access third party repositories.
 
-## Configure Realtek Drivers in Debian 13
+## Install Realtek Drivers in Debian 13
 
 ### Linux headers
 
