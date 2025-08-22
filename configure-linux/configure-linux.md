@@ -41,3 +41,7 @@ That´s all.
 It doesn't create a backup or copy, it creates a reference of the changes made to the partition. The Snapshots are very light.
 
 **Timeshift** works very similar to **Git**.
+
+## References
+
+* Link to the YouTube video: [Install Debian 13 Trixie for Workstation use](https://youtu.be/aiI_23UEIqc?si=YxHlmTN3sgihSR_s)
