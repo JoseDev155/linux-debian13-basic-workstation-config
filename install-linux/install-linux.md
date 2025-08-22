@@ -122,5 +122,4 @@ update-grub
 
 ## References
 
-
 * Link to the YouTube video: [Install Debian 13 Trixie for Workstation use](https://youtu.be/aiI_23UEIqc?si=YxHlmTN3sgihSR_s)
