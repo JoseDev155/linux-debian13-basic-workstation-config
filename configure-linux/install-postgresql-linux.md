@@ -10,7 +10,7 @@ Go to **Automated repository configuration** section and execute (as root or wit
 
 ```bash
 apt install -y postgresql-common
-/usr/share/postgresql-cpmmon/pgdg/apt.postgresql.org.sh
+/usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
 ```
 
 If we have `systemd`, it create a symlink automatically.
